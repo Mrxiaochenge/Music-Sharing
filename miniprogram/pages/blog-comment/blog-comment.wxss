@@ -1,0 +1,26 @@
+.comment-list {
+  padding: 20rpx 10rpx 0;
+}
+.tab {
+  padding: 10rpx;
+  font-size: 30rpx;
+}
+.comment-portrait {
+  width: 64rpx;
+  height: 64rpx;
+  margin-right: 20rpx;
+  border-radius: 50%;
+}
+.comment-time {
+  font-size: 24rpx;
+  color: #939393
+}
+ .blog-ctrl {
+  padding: 0 20rpx; 
+  height: 100rpx; 
+  position: fixed;
+  bottom: 0;
+  width:100%;
+  z-index: 99; 
+  box-sizing: border-box;
+} 

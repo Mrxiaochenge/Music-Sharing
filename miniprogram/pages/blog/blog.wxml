@@ -1,0 +1,29 @@
+<view class="container">
+  <!-- 头部 -->
+ <view class="header">
+ <view class="publish-container" bind:tap="onPublish">
+  <i class="iconfont icon-fabu"></i>
+ </view>
+ <view class="search-container">
+  <x-search iconfont="iconfont" icon-sousuo="icon-sousuo" bind:search="onSearch"></x-search>
+ </view>
+ </view>
+ 
+   <!-- 卡片组件 -->
+   <view class="blog-list">
+   <block wx:for="{{blogList}}" wx:key="_id">
+   <view class="blog-panel">
+   <x-blog-card blog="{{item}}" bind:tap="goComment" data-blogid="{{item._id}}"></x-blog-card>
+     <x-blog-ctrl iconfont="iconfont" icon-pinglun="icon-pinglun" blog="{{item}}"
+         icon-fenxiang_2="icon-fenxiang_2" blogId="{{item._id}}"></x-blog-ctrl>
+   </view>
+</block>
+</view>
+
+
+<!-- 底部弹出层 -->
+<x-login modalShow="{{modalShow}}" bind:loginsuccess="onLoginsuccess" bind:loginfail="onLoginfail">
+ 
+</x-login>
+
+</view>

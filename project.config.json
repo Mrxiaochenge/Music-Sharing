@@ -1,0 +1,56 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"enhance": true
+	},
+	"appid": "wx5f4094a81657bac2",
+	"projectname": "music",
+	"libVersion": "2.11.0",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "blog-edit",
+					"pathName": "pages/blog-edit/blog-edit",
+					"query": "nickName:=\"小\", &avatarUrl:=\"https://wx.qlogo.cn/mmopen/vi_32/GI3kzymAL5ceicoZJ…bvvXzZNUMM0LxNuUxY4ibS9F25H0p9y0ibGe6oolz0JKg/132\"} avatarUrl: \"https://wx.qlogo.cn/mmopen/vi_32/GI3kzymAL5ceicoZJmEwibFYt2naI6kPrxERnSxJRMsISibvvXzZNUMM0LxNuUxY4ibS9F25H0p9y0ibGe6oolz0JKg/132",
+					"scene": null
+				}
+			]
+		}
+	}
+}

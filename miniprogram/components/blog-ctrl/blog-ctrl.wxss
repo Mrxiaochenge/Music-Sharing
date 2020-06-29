@@ -1,0 +1,59 @@
+.ctrl {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  height: 100%;
+}
+.ctrl-item {
+  flex: 1;
+  text-align: center;
+  color: rgba(40,47,60,0.8);
+  font-size: 26rpx;
+  height: 60rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.ctrl-item .icon {
+  margin-right: 12rpx;
+  font-size: 32rpx;
+}
+.ctrl-item text {
+  font-size: 32rpx;
+}
+i {
+  margin-right: 10rpx;
+}
+.comment-content {
+  width: 600rpx;
+  box-sizing: border-box;
+  height: 300rpx;
+  margin-left: 20rpx;
+}
+.send {
+  width: 105rpx;
+  height: 60rpx;
+ background: #d43c33;
+  color: #fff;
+  font-size: 20rpx;
+  margin-right: 10rpx;
+  margin-bottom: 10rpx;
+}
+.share-btn {
+  background-color: #fff;
+  color: rgba(40,47,60,0.8);
+  padding: 0;
+  height: 100%;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.share-btn::after {
+  display: none;
+}
+.share-hover::after{
+  border: 0;
+}
